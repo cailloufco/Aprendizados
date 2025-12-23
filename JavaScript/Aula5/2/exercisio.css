@@ -1,0 +1,40 @@
+body{
+    background-color: darkgreen;
+}
+section{
+    background-color: white;
+    height: 390px;
+    width: 700px;
+    border-radius: 12px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7 );
+}
+header{
+    text-align: center;
+    font: normal 15pt Arial;
+    
+}
+footer{
+    text-align: center;
+    font: normal 10pt Courier;
+    color: darkblue;
+    position: relative;
+    top: 20px;
+}
+#titulodadiv{
+    font-size: 20px;
+    
+}
+#botaodeverify{
+    color: black;
+}
+#verify{
+    position: relative;
+    top: 15px;
+}
+#resul{
+    position: relative;
+    top: 50px;
+    font: normal 15pt Verdana;
+}

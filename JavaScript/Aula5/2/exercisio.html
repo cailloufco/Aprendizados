@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercisio</title>
+    <link rel="stylesheet" href="exercisio.css">
+</head>
+<body>
+    <header>
+    <h1>TITULO</h1>
+    </header>
+    <section>    
+        <div id="titulodadiv">
+            Verificador de Identidade
+        </div>
+        
+        <div>
+            <label for="Idade">Digite seu ano de nascimento: </label>
+            <input type="text" name="Idade" maxlength="4" id="Idade" placeholder="aaaa" >
+        </div>
+        <div>
+            Gênero<br>
+            <label><input type="radio" name="genero" id="masculino" value="Masculino">Masculino</label>
+            <label><input type="radio" name="genero" id="feminino" value="Feminino">Feminino</label>
+        </div>
+        <div id="botaodeverify">
+            <input type="button" value="Verifique" id="verify" onclick="verificar()">
+        </div>
+        
+        <div id="resul">
+            <h1>teste</h1>
+        </div>
+    </section>
+    <footer>
+        <strong>&copy;made by <a href="https://www.instagram.com/cailloufco/" target="_blank">@cailloufco</a></strong>
+    </footer>
+
+    <script src="exercisio.js"></script>
+</body>
+</html>

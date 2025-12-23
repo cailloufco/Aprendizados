@@ -1,0 +1,11 @@
+let nota1 =Number.parseFloat(prompt('Qual sua primeira nota?: '))
+let nota2 =Number.parseFloat(prompt('Qual sua segunda nota?: '))
+let nota3 =Number.parseFloat(prompt('Qual sua terceira nota?: '))
+let media = (nota1+nota2+nota3)/3
+alert( media >= 7 ? `Sua media foi maior que 7 sua media foi ${media}` : `Não grita... sua media foi ${media}`)
+let mediaatual = document.getElementById("mediadeformaatual")
+mediaatual.innerHTML=(`usando metodo atual , ta ai sua média : <strong>${media.toFixed(1)}</strong>`)
+let digitar = document.getElementById("textoinstagram")
+digitar.innerHTML= 'Aprendendo DOM e mudando as cores'
+digitar.style.color= 'red'
+digitar.style.background= 'blue'

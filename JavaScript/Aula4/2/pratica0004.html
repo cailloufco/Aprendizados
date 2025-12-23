@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticando</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font: normal 16pt;
+            width: 700px;
+        
+        }
+        #resultado{
+            color: green;
+            position: absolute;
+            left: 500px;
+            top: 77px;
+            font: normal 50pt arial;
+        }
+        #botao_gerar_resultado{
+            position: absolute;
+            top: 200px;
+            left: 50px
+        }
+        #botao_real{
+            height: 56px;
+            width: 200px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><strong>MEDIA DO ALUNO</strong></h1>
+    
+    primeira nota: <input type="number" name="" id="m1"><br>
+    segunda nota: <input type="number" name="" id="m2"><br>
+    terceira nota: <input type="number" name="" id="m3"><br>
+
+    
+    <div id="botao_gerar_resultado"><input id="botao_real" type="button" value="Mostrar média" onclick="media()"></div>
+
+
+    <div id="resultado"><strong></strong></div>
+    <script src="pratica0004.js"></script>
+</body>
+</html>
