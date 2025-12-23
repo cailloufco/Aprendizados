@@ -41,7 +41,7 @@ footer {
 }
 #imagemNoSite {
   margin-left: 7px;
-  width: 50px;
+  width: 45px;
   position: relative;
-  border-radius: 40px;
+  border-radius: 100%;
 }
