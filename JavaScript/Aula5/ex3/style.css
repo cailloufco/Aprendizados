@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}header{
+    font: normal 10pt Verdana;
+    color: whitesmoke;
+}
+section {
+  color: white;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 100px;
+  width: 500px;
+}
+footer {
+  text-align: center;
+  font: normal 10pt Courier;
+  color: darkblue;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+#imagemicondoGitHub {
+  margin-left: 7px;
+  width: 30px;
+  position: relative;
+  border-radius: 100%;
+}
+#Horario {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.Relogio {
+  color: black;
+  background-color: white;
+  padding: 16px;
+  font: normal 50pt Orbitron;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
