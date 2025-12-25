@@ -14,6 +14,7 @@ segundosDoSite = document.getElementById("Segundos");
 //-----------------------
 
 //fazer aparecer
+
 if (horasatuais < 10) {
   horaDoSite.innerHTML = "0" + horasatuais;
 } else {
@@ -30,3 +31,16 @@ if (segundosatuaois < 10) {
   segundosDoSite.innerHTML = segundosatuaois;
 }
 //==============================
+
+//fazer imagem do site alterar de acordo com a hora
+imagemDoSite = document.getElementById("pngDiaTardeNoite");
+
+if (horasatuais <= 6) {
+  imagemDoSite.src = "assets/madrugada.jpg";
+} else if (horasatuais <= 12) {
+  imagemDoSite.src = "assets/dia.jpg";
+} else if (horasatuais <= 18) {
+  imagemDoSite.src = "assets/tarde.jpg";
+} else if(horasatuais <= 24){
+  imagemDoSite.src = "assets/noite.jpg";
+}
