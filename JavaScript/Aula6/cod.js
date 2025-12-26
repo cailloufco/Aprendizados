@@ -1,13 +1,33 @@
 function Verify() {
   numEscolhidoSite = Number(document.getElementById("ValorTabuada").value)
   console.log(numEscolhidoSite)
+if(numEscolhidoSite == 0){
+    alert("todo numero multiplicado por 0 será 0!!!")
+}
+contador = 0
+//dar um jeito de multiplicar
+exibir = document.getElementById("Resultados")
 
-contador = -1
-//dar um jeito d aparecer lá no site as multiplicações
+//limpar o antigo resultado
+ exibir.innerText = "";
+ //--------
+
+
+ //multiplicação
 while (contador < 10){
 contador ++
 resultado = numEscolhidoSite * contador
 
 console.log(` ${numEscolhidoSite} x ${contador} = ${resultado}`)
+
+//aonde o resultado deve aparecer
+
+exibir.innerText += (` ${numEscolhidoSite} x ${contador} = ${resultado}\n`)
+
 }
+
+
+
+
+
 }
