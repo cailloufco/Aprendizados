@@ -3,7 +3,8 @@ body {
 }
 header {
   font: normal 10pt Verdana;
-  color: whitesmoke
+  color: whitesmoke;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
 }
 section {
   color: white;
@@ -17,13 +18,19 @@ section {
 }
 footer {
   text-align: center;
-  font: normal 15pt Courier;
+
   color: darkblue;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   margin-top: 8px;
+}
+footer a {
+  
+  color: rgb(34, 0, 255);
+  font: bold 15pt Courier;
+  font-style: italic;
 }
 #imagemicondoGitHub {
   margin-left: 7px;
