@@ -10,14 +10,15 @@ body {
   border-radius: 20px;
   padding: 9px;
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.514);
-}#secção2{
-    background-color: burlywood;
-    margin-top: 23px;
-    width: 200px;
-    padding-left: 12px;
-    padding-top: 3px;
-    border-radius: 12px;
-    
+}
+#secção2 {
+  background-color: burlywood;
+  margin-top: 23px;
+  width: 200px;
+  padding-left: 12px;
+  padding-top: 3px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.342);
 }
 #backgroudTextoTabuada {
   background-color: aquamarine;
@@ -28,22 +29,20 @@ body {
   margin: auto;
   margin-bottom: 20px;
   box-shadow: 7px 7px 11px rgba(0, 0, 0, 0.445);
-  
 }
 #ValorTabuada {
   border-radius: 5px;
   margin-left: 10px;
-  
 }
-#Resultados{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    height: 185px;
-    
-}#BotaoVerificar{
-    margin-top: 24px;
-    margin-left: 12px ;
-    height: 42px;
-    width: 80px;
+#Resultados {
+  text-align: left;
+  height: 185px;
+}
+#BotaoVerificar {
+  margin-top: 24px;
+  margin-left: 12px;
+  height: 42px;
+  width: 80px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.589);
+  cursor: pointer;
 }
