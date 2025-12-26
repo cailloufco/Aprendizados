@@ -9,7 +9,9 @@ header {
 section {
   color: white;
   background-color: grey;
-  border-radius: 20px;
+  border-radius: 15px;
+  border-style: inset;
+  border-color: rgba(0, 0, 0, 0.596);
   padding: 15px;
   margin: auto;
   margin-top: 100px;
