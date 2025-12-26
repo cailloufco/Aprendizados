@@ -1,33 +1,26 @@
 function Verify() {
-  numEscolhidoSite = Number(document.getElementById("ValorTabuada").value)
-  console.log(numEscolhidoSite)
-if(numEscolhidoSite == 0){
-    alert("todo numero multiplicado por 0 será 0!!!")
-}
-contador = 0
-//dar um jeito de multiplicar
-exibir = document.getElementById("Resultados")
+  numEscolhidoSite = Number(document.getElementById("ValorTabuada").value);
+  console.log(numEscolhidoSite);
+  if (numEscolhidoSite == 0) {
+    alert("todo numero multiplicado por 0 será 0!!!");
+  }
+  contador = 0;
+  //dar um jeito de multiplicar
+  exibir = document.getElementById("Resultados");
 
-//limpar o antigo resultado
- exibir.innerText = "";
- //--------
+  //limpar o antigo resultado
+  exibir.innerText = "";
+  //--------
 
+  //multiplicação
+  while (contador < 10) {
+    contador++;
 
- //multiplicação
-while (contador < 10){
-contador ++
-resultado = numEscolhidoSite * contador
+    resultado = (numEscolhidoSite * contador).toFixed(2);
 
-console.log(` ${numEscolhidoSite} x ${contador} = ${resultado}`)
+    console.log(` ${numEscolhidoSite} x ${contador} = ${resultado}`);
 
-//aonde o resultado deve aparecer
-
-exibir.innerText += (` ${numEscolhidoSite} x ${contador} = ${resultado}\n`)
-
-}
-
-
-
-
-
+    //aonde o resultado deve aparecer
+    exibir.innerText += `${numEscolhidoSite} x ${contador} = ${resultado}\n`;
+  }
 }

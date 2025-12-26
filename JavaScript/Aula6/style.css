@@ -25,7 +25,7 @@ body {
   display: grid;
   place-items: center;
   border-radius: 20px;
-  width: 120px;
+  width: 230px;
   margin: auto;
   margin-bottom: 20px;
   box-shadow: 7px 7px 11px rgba(0, 0, 0, 0.445);
@@ -33,10 +33,11 @@ body {
 #ValorTabuada {
   border-radius: 5px;
   margin-left: 10px;
+  padding: 3px;
 }
 #Resultados {
   text-align: left;
-  height: 185px;
+  height: auto;
 }
 #BotaoVerificar {
   margin-top: 24px;
@@ -45,4 +46,15 @@ body {
   width: 80px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.589);
   cursor: pointer;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+#imgIcon {
+  width: 40px;
+  border-radius: 100%;
+  margin-left: 4px;
 }
