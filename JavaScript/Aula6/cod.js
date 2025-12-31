@@ -5,14 +5,14 @@ function Verify() {
     alert("todo numero multiplicado por 0 será 0!!!");
   }
   contador = 0;
-  //dar um jeito de multiplicar
+  //
   exibir = document.getElementById("Resultados");
 
   //limpar o antigo resultado
   exibir.innerText = "";
   //--------
 
-  //multiplicação
+  //dar um jeito de multiplicar
   while (contador < 10) {
     contador++;
 
