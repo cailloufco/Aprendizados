@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  display: grid;
+  place-items: center;
 }
 header {
   font: normal 10pt Verdana;
@@ -17,6 +19,8 @@ section {
   margin-top: 100px;
   width: 500px;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.671);
+  display: grid;
+  place-items: center;
 }
 footer {
   text-align: center;
@@ -29,7 +33,6 @@ footer {
   margin-top: 8px;
 }
 footer a {
-  
   color: rgb(34, 0, 255);
   font: bold 15pt Courier;
   font-style: italic;
@@ -43,8 +46,6 @@ footer a {
 #Horario {
   display: flex;
   gap: 20px;
-  align-items: center;
-  justify-content: center;
 }
 .Relogio {
   color: black;
@@ -52,16 +53,23 @@ footer a {
   padding: 16px;
   font: normal 50pt Orbitron;
   border-radius: 20px;
-  text-align: center;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
 }
 #pngDiaTardeNoite {
-  display: flex;
-  margin: auto;
-  justify-content: center;
   width: 200px;
   height: 200px;
   margin-top: 20px;
   border-radius: 100%;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.575);
+}
+#diaMesAno {
+  display: flex;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100px;
+  background-color: aqua;
+  padding: 20px;
+  justify-content: center;
+  font: bolder 12pt Arial;
+  
 }
