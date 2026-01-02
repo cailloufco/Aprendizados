@@ -46,6 +46,7 @@ function atualizarHoraSite() {
   //==============================
 
   //fazer imagem do site alterar de acordo com a hora /alterar background de acordo com a hora
+  
   imagemDoSite = document.getElementById("pngDiaTardeNoite");
   corDoBackGround = document.getElementById("background");
   if (horasatuais < 6) {
