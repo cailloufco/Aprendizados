@@ -16,16 +16,6 @@ function atualizarHoraSite() {
 
   txtdiaMesAno.innerHTML = `${dia} / ${mes} / ${ano}`;
 
-  if (ano > 2025) {
-    document.body.style.backgroundImage = 'url("assets/background.jpg")';
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundPosition = "center";
-    console.log("chegou");
-  } else {
-    console.log("ainda nao chegou 2026");
-  }
-
   //-----------------------
 
   //pegar as divs com as horas

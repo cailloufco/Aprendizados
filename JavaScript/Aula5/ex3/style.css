@@ -66,10 +66,10 @@ footer a {
   display: flex;
   border-radius: 20px;
   margin-top: 20px;
-  width: 100px;
+  width: 150px;
   background-color: aqua;
   padding: 20px;
   justify-content: center;
-  font: bolder 12pt Arial;
-  
+  font: bolder 17pt Arial;
+  text-shadow: 4px 4px 4px black;
 }
