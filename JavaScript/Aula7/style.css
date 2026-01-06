@@ -1,0 +1,27 @@
+body{
+    background-color: blue;
+    display: grid;
+    place-items: center;
+}header{
+    color: white;
+}
+section{
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 15px;
+}#chosenNumber{
+    cursor: text;
+}[name = clickableButton]{
+    cursor: pointer;
+}#listWithResults{
+    width: 250px;
+    height: 230px;
+    border-radius: 5px;
+    background-color: aqua;
+    overflow: auto;
+    padding: 5px;
+}#divwithAllResults{
+    font: normal 15pt Verdana;
+}

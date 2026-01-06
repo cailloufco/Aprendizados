@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Number Analyzer</h1>
+    </header>
+    <section>
+      <label for="chosenNumber">Type your number (1-100) </label
+      ><input type="number" id="chosenNumber" />
+      <input
+        type="button"
+        value="Choose"
+        name="clickableButton"
+        id="buttonAddResults"
+        onclick="addValueArray()"
+      />
+      <br /><br />
+      <div id="listWithResults"></div>
+      <br /><br /><input
+        type="button"
+        value="Analyze"
+        name="clickableButton"
+        onclick="analyzeAllResults()"
+      />
+      <div id="divwithAllResults">all results</div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
