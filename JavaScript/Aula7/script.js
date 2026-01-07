@@ -14,7 +14,7 @@ function addValueArray() {
 
     // adding elements for 'div'
     let resultList = document.getElementById("listWithResults");
-    resultList.innerHTML += `chosen number was <strong>${getingSiteNumber}<strong><br>`;
+    resultList.innerHTML += `chosen number was <strong>${getingSiteNumber}</strong><br>`;
 
     // restarting analyze function
     let writeAllResults = document.getElementById("divwithAllResults");
