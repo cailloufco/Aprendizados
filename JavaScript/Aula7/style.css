@@ -8,8 +8,8 @@ header {
 }
 section {
   background-color: white;
-  width: 500px;
-  height: 350px;
+  width: 550px;
+  height: auto;
   padding: 15px;
   border-radius: 15px;
 }
@@ -26,6 +26,7 @@ section {
   background-color: aqua;
   overflow: auto;
   padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #divwithAllResults {
   font: normal 15pt Verdana;
