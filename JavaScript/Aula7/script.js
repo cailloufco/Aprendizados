@@ -2,7 +2,7 @@ let listwithAllNumbers = [];
 
 function addValueArray() {
   let getingSiteNumber = Number(document.getElementById("chosenNumber").value);
-
+  //validation
   if (getingSiteNumber > 100 || getingSiteNumber < 1) {
     console.log("invalid number");
     alert("invalid number");
@@ -12,18 +12,15 @@ function addValueArray() {
   } else {
     listwithAllNumbers.push(getingSiteNumber);
     listwithAllNumbers.sort();
+    //-------------------
 
-    // geting / adding elements from 'select'
-
+    // adding elements for 'div'
     let resultList = document.getElementById("listWithResults");
-    resultList.innerHTML += `chosen number was <strog>${getingSiteNumber}<strong><br>`;
-
-    //code test
-    console.log(
-      `${getingSiteNumber} , ${listwithAllNumbers} , ${listwithAllNumbers.length}`
-    );
+    resultList.innerHTML += `chosen number was <strong>${getingSiteNumber}<strong><br>`;
   }
 }
-function analyzeAllResults(){
-    console.log("in progress")
+function analyzeAllResults() {
+  let writeAllResults = document.getElementById("divwithAllResults");
+  //show the largest number
+  console.log(listwithAllNumbers[listwithAllNumbers.length()-1])
 }
